@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[[14:00:26.028] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:28.549] Search for element By.id: email]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:28.615] Change value of input: webinar.test@gmail.com
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:28.811] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:28.811] Search for element By.id: passwd]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:28.847] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:29.041] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:29.041] Search for element By.name: submitLogin]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:29.08 ] Click on element button]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:29.197] Search for element By.id: subtab-AdminCatalog]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:31.455] Search for element By.xpath: //*[@id='subtab-AdminProducts']/a]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:36.766] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:36.792] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:36.792] Search for element By.cssSelector: #page-header-desc-configuration-add > span]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:36.826] Click on element span]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:55.281] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:55.292] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:55.307] Search for element By.id: form_step1_name_1]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:55.349] Change value of input: New Product 1512216055300
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.411] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.411] Search for element By.id: form_step1_qty_0_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.443] Change value of input: 
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.556] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.566] Change value of input: 34
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.697] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.698] Execute script: scroll(0,400);]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.711] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.712] Search for element By.id: form_step1_price_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.867] Change value of input: 
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.974] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:56.982] Change value of input: 37,10
+]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.237] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.24 ] Search for element By.cssSelector: .switch-input]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.274] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.418] Search for element By.xpath: //*[@id='growls']]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.775] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.886] Search for element By.cssSelector: .growl-close]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:57.924] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:58.021] Search for element By.cssSelector: button.btn.btn-primary.js-btn-save]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:58.057] Click on element button]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:58.176] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:59.941] Search for element By.cssSelector: a.all-product-link.pull-xs-left.pull-md-right.h4]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:59.972] Execute script: arguments[0].scrollIntoView(true);]]>
+    </line>
+    <line>
+      <![CDATA[[14:00:59.981] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:00.04 ] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:01.26 ] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//a]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:01.296] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//span]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:01.392] Execute script: arguments[0].scrollIntoView(true);]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:01.399] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:01.418] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:02.246] Search for element By.cssSelector: h1.h1]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:02.274] Search for element By.cssSelector: div.product-price.h5]]>
+    </line>
+    <line>
+      <![CDATA[[14:01:02.299] Search for element By.xpath: //div[@class='product-quantities']/span]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42409" started-at="2017-12-02T12:00:21Z" finished-at="2017-12-02T12:01:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42409" started-at="2017-12-02T12:00:21Z" finished-at="2017-12-02T12:01:03Z">
+      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
+        <test-method status="PASS" signature="openProductsPage(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="openProductsPage" duration-ms="34105" started-at="2017-12-02T14:00:21Z" finished-at="2017-12-02T14:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[14:00:26.028] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:28.549] Search for element By.id: email]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:28.615] Change value of input: webinar.test@gmail.com
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:28.811] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:28.811] Search for element By.id: passwd]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:28.847] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:29.041] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:29.041] Search for element By.name: submitLogin]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:29.08 ] Click on element button]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:29.197] Search for element By.id: subtab-AdminCatalog]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:31.455] Search for element By.xpath: //*[@id='subtab-AdminProducts']/a]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:36.766] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:36.792] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:36.792] Search for element By.cssSelector: #page-header-desc-configuration-add > span]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:36.826] Click on element span]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:55.281] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:55.292] Script executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openProductsPage -->
+        <test-method status="PASS" signature="fillNewProductData(java.lang.String, java.lang.Integer, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="fillNewProductData" duration-ms="1931" started-at="2017-12-02T14:00:55Z" data-provider="generateProduct" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.openProductsPage" finished-at="2017-12-02T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Product 1512216055300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[37,10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[14:00:55.307] Search for element By.id: form_step1_name_1]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:55.349] Change value of input: New Product 1512216055300
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.411] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.411] Search for element By.id: form_step1_qty_0_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.443] Change value of input: 
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.556] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.566] Change value of input: 34
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.697] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.698] Execute script: scroll(0,400);]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.711] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.712] Search for element By.id: form_step1_price_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.867] Change value of input: 
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.974] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:56.982] Change value of input: 37,10
+]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.237] Changed element input]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillNewProductData -->
+        <test-method status="PASS" signature="saveProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="saveProduct" duration-ms="933" started-at="2017-12-02T14:00:57Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.fillNewProductData" finished-at="2017-12-02T14:00:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[14:00:57.24 ] Search for element By.cssSelector: .switch-input]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.274] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.418] Search for element By.xpath: //*[@id='growls']]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.775] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.886] Search for element By.cssSelector: .growl-close]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:57.924] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:58.021] Search for element By.cssSelector: button.btn.btn-primary.js-btn-save]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:58.057] Click on element button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- saveProduct -->
+        <test-method status="PASS" signature="verifyCreatedProductInList()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="verifyCreatedProductInList" duration-ms="4070" started-at="2017-12-02T14:00:58Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.saveProduct" finished-at="2017-12-02T14:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[14:00:58.176] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:59.941] Search for element By.cssSelector: a.all-product-link.pull-xs-left.pull-md-right.h4]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:59.972] Execute script: arguments[0].scrollIntoView(true);]]>
+            </line>
+            <line>
+              <![CDATA[[14:00:59.981] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:00.04 ] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:01.26 ] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//a]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:01.296] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//span]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:01.392] Execute script: arguments[0].scrollIntoView(true);]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:01.399] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:01.418] Click on element a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedProductInList -->
+        <test-method status="PASS" signature="verifyDetailedProductInformation()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="verifyDetailedProductInformation" duration-ms="183" started-at="2017-12-02T14:01:02Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.verifyCreatedProductInList" finished-at="2017-12-02T14:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[14:01:02.246] Search for element By.cssSelector: h1.h1]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:02.274] Search for element By.cssSelector: div.product-price.h5]]>
+            </line>
+            <line>
+              <![CDATA[[14:01:02.299] Search for element By.xpath: //div[@class='product-quantities']/span]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDetailedProductInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@3bd550]" name="tearDown" is-config="true" duration-ms="1151" started-at="2017-12-02T14:01:02Z" finished-at="2017-12-02T14:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

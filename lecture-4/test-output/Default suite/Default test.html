@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 02 14:00:21 EET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42409 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.fillNewProductData()'><b>fillNewProductData</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br>Parameters: New Product 1512216055300, 34, 37,10<br/>
+<a href="#Output-8607197" onClick='toggleBox("Output-8607197", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8607197" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8607197">
+[14:00:55.307] Search for element By.id: form_step1_name_1<br/>
+[14:00:55.349] Change value of input: New Product 1512216055300
+<br/>
+[14:00:56.411] Changed element input<br/>
+[14:00:56.411] Search for element By.id: form_step1_qty_0_shortcut<br/>
+[14:00:56.443] Change value of input: ?
+<br/>
+[14:00:56.556] Changed element input<br/>
+[14:00:56.566] Change value of input: 34
+<br/>
+[14:00:56.697] Changed element input<br/>
+[14:00:56.698] Execute script: scroll(0,400);<br/>
+[14:00:56.711] Script executed<br/>
+[14:00:56.712] Search for element By.id: form_step1_price_shortcut<br/>
+[14:00:56.867] Change value of input: ?
+<br/>
+[14:00:56.974] Changed element input<br/>
+[14:00:56.982] Change value of input: 37,10
+<br/>
+[14:00:57.237] Changed element input<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@3bd550</td></tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.openProductsPage()'><b>openProductsPage</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br>Parameters: chrome<br/>
+<a href="#Output-5348532" onClick='toggleBox("Output-5348532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5348532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5348532">
+[14:00:26.028] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/<br/>
+[14:00:28.549] Search for element By.id: email<br/>
+[14:00:28.615] Change value of input: webinar.test@gmail.com
+<br/>
+[14:00:28.811] Changed element input<br/>
+[14:00:28.811] Search for element By.id: passwd<br/>
+[14:00:28.847] Change value of input: Xcg7299bnSmMuRLp9ITw
+<br/>
+[14:00:29.041] Changed element input<br/>
+[14:00:29.041] Search for element By.name: submitLogin<br/>
+[14:00:29.08 ] Click on element button<br/>
+[14:00:29.197] Search for element By.id: subtab-AdminCatalog<br/>
+[14:00:31.455] Search for element By.xpath: //*[@id='subtab-AdminProducts']/a<br/>
+[14:00:36.766] Execute script: return document.readyState<br/>
+[14:00:36.792] Script executed<br/>
+[14:00:36.792] Search for element By.cssSelector: #page-header-desc-configuration-add > span<br/>
+[14:00:36.826] Click on element span<br/>
+[14:00:55.281] Execute script: return document.readyState<br/>
+[14:00:55.292] Script executed<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@3bd550</td></tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.saveProduct()'><b>saveProduct</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br/>
+<a href="#Output-1028873" onClick='toggleBox("Output-1028873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1028873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1028873">
+[14:00:57.24 ] Search for element By.cssSelector: .switch-input<br/>
+[14:00:57.274] Click on element div<br/>
+[14:00:57.418] Search for element By.xpath: //*[@id='growls']<br/>
+[14:00:57.775] Click on element div<br/>
+[14:00:57.886] Search for element By.cssSelector: .growl-close<br/>
+[14:00:57.924] Click on element div<br/>
+[14:00:58.021] Search for element By.cssSelector: button.btn.btn-primary.js-btn-save<br/>
+[14:00:58.057] Click on element button<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@3bd550</td></tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.verifyCreatedProductInList()'><b>verifyCreatedProductInList</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br/>
+<a href="#Output-27479538" onClick='toggleBox("Output-27479538", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27479538" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27479538">
+[14:00:58.176] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[14:00:59.941] Search for element By.cssSelector: a.all-product-link.pull-xs-left.pull-md-right.h4<br/>
+[14:00:59.972] Execute script: arguments[0].scrollIntoView(true);<br/>
+[14:00:59.981] Script executed<br/>
+[14:01:00.04 ] Click on element a<br/>
+[14:01:01.26 ] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//a<br/>
+[14:01:01.296] Search for element By.xpath: //div[@class='product-price-and-shipping' and contains(.,'37,10')]/parent::div//span<br/>
+[14:01:01.392] Execute script: arguments[0].scrollIntoView(true);<br/>
+[14:01:01.399] Script executed<br/>
+[14:01:01.418] Click on element a<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@3bd550</td></tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.verifyDetailedProductInformation()'><b>verifyDetailedProductInformation</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br/>
+<a href="#Output-28793302" onClick='toggleBox("Output-28793302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28793302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28793302">
+[14:01:02.246] Search for element By.cssSelector: h1.h1<br/>
+[14:01:02.274] Search for element By.cssSelector: div.product-price.h5<br/>
+[14:01:02.299] Search for element By.xpath: //div[@class='product-quantities']/span<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@3bd550</td></tr>
+</table><p>
+</body>
+</html>
