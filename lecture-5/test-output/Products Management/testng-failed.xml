@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Products Management]" parallel="tests">
+  <parameter name="browser" value="android"/>
+  <test name="Task 5 [Android]">
+    <parameter name="browser" value="android"/>
+    <classes>
+      <class name="myprojects.automation.assignment5.tests.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Task 5 [Android] -->
+  <test name="Task 5 [Android](failed)" parallel="tests">
+    <parameter name="browser" value="android"/>
+    <classes>
+      <class name="myprojects.automation.assignment5.tests.PlaceOrderTest">
+        <methods>
+          <include name="checkSiteVersion"/>
+          <include name="createNewOrder"/>
+        </methods>
+      </class> <!-- myprojects.automation.assignment5.tests.PlaceOrderTest -->
+    </classes>
+  </test> <!-- Task 5 [Android](failed) -->
+</suite> <!-- Failed suite [Products Management] -->

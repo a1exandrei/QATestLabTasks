@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Products Management" verbose="1" parallel="tests">
+
+    <test name="Task 5 [Grid Chrome]" >
+        <parameter name="browser" value="grid_chrome" />
+         <classes>
+             <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
+        </classes>
+    </test>
+
+<!-- 
+    <test name="Task 5 [Chrome]" >
+        <parameter name="browser" value="chrome" />
+         <classes>
+             <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
+        </classes>
+    </test>
+
+-->
+ 
+<!--
+    <test name="Task 5 [Android]" >
+        <parameter name="browser" value="android" />
+        <classes>
+             <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
+        </classes>
+    </test>		
+-->
+
+</suite>
